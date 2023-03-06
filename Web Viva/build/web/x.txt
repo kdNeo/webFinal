@@ -1,0 +1,62 @@
+Tue Jul 28 20:54:54 IST 2020 -- nimal@gmail.com -A new customer signup in to the system
+Tue Jul 28 21:10:21 IST 2020 --  customer email:nimal@gmail.com customer changed password:66666666
+Tue Jul 28 21:11:37 IST 2020 -- A new customer signup in to the system:nimal@gmail.comHis Password:88888888
+Tue Jul 28 21:12:00 IST 2020 -- A new customer signup in to the system:rani@gmail.comHis Password:55555555
+Tue Jul 28 21:13:22 IST 2020 --  customer email:rani@gmail.com customer changed password:33333333
+Tue Jul 28 21:14:20 IST 2020 -- rani@gmail.com -Logged in to the system
+Tue Jul 28 21:18:01 IST 2020 -- rani@gmail.com -Logged in to the system
+Tue Jul 28 21:20:15 IST 2020 -- Invoice Id:10 Customer Name:Rani Perera-Purchased items
+Tue Jul 28 21:27:28 IST 2020 -- rani@gmail.com -Logged out from  the system
+Tue Jul 28 21:27:43 IST 2020 -- admin@gmail.com -Logged in to the system
+Tue Jul 28 21:28:16 IST 2020 -- admin@gmail.com -Logged out from  the system
+Tue Jul 28 21:28:23 IST 2020 -- rani@gmail.com -Logged in to the system
+Tue Jul 28 21:36:16 IST 2020 -- rani@gmail.com -Logged out from  the system
+Tue Jul 28 21:36:27 IST 2020 -- rani@gmail.com -Logged in to the system
+Tue Jul 28 21:36:45 IST 2020 -- rani@gmail.com -Logged out from  the system
+Wed Jul 29 08:18:33 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 08:20:23 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 08:20:44 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 08:22:55 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 12:26:30 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 12:28:01 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 12:28:17 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 12:29:14 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 13:11:05 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 13:12:11 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 13:13:06 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 13:17:40 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 13:18:39 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 13:19:31 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 13:20:53 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 13:21:10 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 13:22:00 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 13:23:08 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 13:35:54 IST 2020 -- sahanchamara@gmail.com -Logged in to the system
+Wed Jul 29 13:36:03 IST 2020 -- sahanchamara561@gmail.com -Logged in to the system
+Wed Jul 29 13:36:07 IST 2020 -- sahanchamara561@gmail.com -Logged out from  the system
+Wed Jul 29 15:02:15 IST 2020 -- admin@gmail.com -Logged in to the system
+Wed Jul 29 15:05:46 IST 2020 -- admin@gmail.com -Logged out from  the system
+Wed Jul 29 15:26:43 IST 2020 -- A new customer signup in to the system:sarath@gmail.comHis Password:11111111
+Wed Jul 29 15:26:44 IST 2020 -- A new customer signup in to the system:sarath@gmail.comHis Password:11111111
+Wed Jul 29 15:29:44 IST 2020 -- A new customer signup in to the system:hdhjwdhuwd@gmail.comHis Password:66666666
+Wed Jul 29 15:29:46 IST 2020 -- A new customer signup in to the system:hdhjwdhuwd@gmail.comHis Password:66666666
+Wed Jul 29 15:34:20 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:11111111
+Wed Jul 29 15:34:24 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:11111111
+Wed Jul 29 15:48:09 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:55555555
+Wed Jul 29 15:50:22 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:11111111
+Wed Jul 29 15:53:39 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:99999999
+Wed Jul 29 16:33:54 IST 2020 -- Unknown entity: java.lang.String -Signup Servlet error
+Wed Jul 29 16:39:25 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:22222222
+Wed Jul 29 16:49:14 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:22222222
+Wed Jul 29 16:52:03 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:zzzzzzzz
+Wed Jul 29 16:54:23 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:ssssssss
+Wed Jul 29 16:57:01 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:dddddddd
+Wed Jul 29 17:25:31 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:pppppppp
+Wed Jul 29 17:26:55 IST 2020 -- kaveeshanadun7@gmail.com -Logged in to the system
+Wed Jul 29 17:29:47 IST 2020 -- kaveeshanadun7@gmail.com -Logged out from  the system
+Wed Jul 29 17:30:24 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:llllllll
+Wed Jul 29 17:31:09 IST 2020 -- kaveeshanadun7@gmail.com -Logged in to the system
+Wed Jul 29 17:31:21 IST 2020 -- kaveeshanadun7@gmail.com -Logged out from  the system
+Wed Jul 29 17:31:49 IST 2020 -- kaveeshanadun7@gmail.com -Logged in to the system
+Wed Jul 29 17:32:10 IST 2020 -- kaveeshanadun7@gmail.com -Logged out from  the system
+Wed Jul 29 17:32:33 IST 2020 -- A new customer signup in to the system:kaveeshanadun7@gmail.comHis Password:wwwwwwww

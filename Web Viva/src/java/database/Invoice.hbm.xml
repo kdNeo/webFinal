@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 29, 2020 4:17:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="database.Invoice" table="invoice" catalog="strongwebnew" optimistic-lock="version">
+        <id name="invid" type="java.lang.Integer">
+            <column name="invid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="user" class="database.User" fetch="select">
+            <column name="user_email" length="200" not-null="true" />
+        </many-to-one>
+        <property name="total" type="java.lang.Double">
+            <column name="total" precision="22" scale="0" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="status" />
+        </property>
+        <property name="contact" type="string">
+            <column name="contact" length="45" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="100" />
+        </property>
+        <set name="cartHasInvoices" table="cart_has_invoice" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="invoice_invid" not-null="true" />
+            </key>
+            <one-to-many class="database.CartHasInvoice" />
+        </set>
+    </class>
+</hibernate-mapping>

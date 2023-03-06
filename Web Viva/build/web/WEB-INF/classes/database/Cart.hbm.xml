@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 29, 2020 4:17:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="database.Cart" table="cart" catalog="strongwebnew" optimistic-lock="version">
+        <id name="cid" type="java.lang.Integer">
+            <column name="cid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="product" class="database.Product" fetch="select">
+            <column name="product_pid" not-null="true" />
+        </many-to-one>
+        <many-to-one name="user" class="database.User" fetch="select">
+            <column name="user_email" length="200" not-null="true" />
+        </many-to-one>
+        <property name="qty" type="java.lang.Integer">
+            <column name="qty" />
+        </property>
+        <property name="status" type="int">
+            <column name="status" not-null="true" />
+        </property>
+        <set name="cartHasInvoices" table="cart_has_invoice" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="cart_cid" not-null="true" />
+            </key>
+            <one-to-many class="database.CartHasInvoice" />
+        </set>
+    </class>
+</hibernate-mapping>

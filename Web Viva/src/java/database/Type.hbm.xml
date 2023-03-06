@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 29, 2020 4:17:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="database.Type" table="type" catalog="strongwebnew" optimistic-lock="version">
+        <id name="tid" type="java.lang.Integer">
+            <column name="tid" />
+            <generator class="identity" />
+        </id>
+        <property name="typename" type="string">
+            <column name="typename" length="45" />
+        </property>
+        <set name="products" table="product" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="type_tid" not-null="true" />
+            </key>
+            <one-to-many class="database.Product" />
+        </set>
+    </class>
+</hibernate-mapping>

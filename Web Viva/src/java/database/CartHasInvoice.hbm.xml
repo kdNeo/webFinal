@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 29, 2020 4:17:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="database.CartHasInvoice" table="cart_has_invoice" catalog="strongwebnew" optimistic-lock="version">
+        <id name="cartHasInvoiceid" type="java.lang.Integer">
+            <column name="cart_has_invoiceid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="cart" class="database.Cart" fetch="select">
+            <column name="cart_cid" not-null="true" />
+        </many-to-one>
+        <many-to-one name="invoice" class="database.Invoice" fetch="select">
+            <column name="invoice_invid" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>
